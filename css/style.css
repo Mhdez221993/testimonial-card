@@ -2,8 +2,8 @@
 :root {
   --primary-color: #171717;
   --secondary-color: #525252;
-  --pramary-color: #d2d6db;
-  --secondary-color: #e0e0e0;
+  --primary-bg: #d2d6db;
+  --secondary-bg: #ffffff;
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: var(--pramary-color);
+  background-color: var(--pramary-bg);
   background-image: linear-gradient(#f9fafb, #d2d6db);
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
@@ -66,8 +66,8 @@ body {
 .user-handle {
   font-weight: 400;
   font-size: 0.875rem;
-  color: var(--secondary-color);
   line-height: 1.25rem;
+  color: var(--secondary-color);
   max-width: 14.25rem;
   overflow: hidden;
   white-space: nowrap;
@@ -78,5 +78,5 @@ body {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
