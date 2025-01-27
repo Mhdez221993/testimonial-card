@@ -1,5 +1,10 @@
-/* Put any custom CSS styles here.  */
-/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+/* -------- Reset ----- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
@@ -11,39 +16,51 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background-color: #f9fafb;
+  color: #171717;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.card {
+/* -------- Card Container ----- */
+.testimonial-card {
   width: 340px;
-  margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
+  margin: 200px auto 0;
   background-color: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0px 4px 6px rgba(249, 250, 251, 0.1);
-  border: 1px solid rgba(82, 82, 82, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
 }
 
-.card-header {
+/* -------- User Info ----- */
+
+.user-info {
   display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
 }
 
-.card-img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin: 10px;
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
 }
 
-h2.card-title {
-  font-size: 1.25rem;
+/* -------- Typography ----- */
+
+.user-name {
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 600;
-  margin: 0;
+  color: #171717;
+}
+
+.user-handle {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #525252;
+}
+
+.testimonial-message {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #171717;
 }
