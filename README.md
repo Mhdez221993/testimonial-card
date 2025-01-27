@@ -2,9 +2,9 @@
 
 A sleek and responsive HTML/CSS component designed to showcase user testimonials effectively. This card features a profile image, full name, username, and the testimonial text, providing a professional and authentic look for your website. Easily customizable and lightweight, it seamlessly integrates into any web project, enhancing user engagement and trust.
 
-![screenshot](./screenshot.png)
+![screenshot](/designs/Desktop.jpg)
 
-## [Go Live](https://mhdez221993.github.io/portfolio/)
+## [Go Live](https://mhdez221993.github.io/testimonial-card/)
 
 ## Built With
 
