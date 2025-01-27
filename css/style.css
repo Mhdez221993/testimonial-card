@@ -39,15 +39,15 @@ body {
 }
 
 .user-avatar {
-  width: 48px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
   border-radius: 999px;
 }
 
 /* -------- Typography ----- */
 
 .user-name {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 600;
   color: #171717;
@@ -62,5 +62,5 @@ body {
 .testimonial-message {
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #171717;
+  color: #525252;
 }
